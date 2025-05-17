@@ -1,1 +1,1 @@
-
+The typical example is a bank balance vs a bank statement. Your balance is a table, that aggregates all transactions from the statement (the stream). As new transactions occur, the balance only maintains one number per account. From the stream, you can create fraud alerts or large transactions notifications. From the table you can detect overdrawn balances or insufficient funds
