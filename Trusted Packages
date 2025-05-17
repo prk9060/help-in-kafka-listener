@@ -1,0 +1,11 @@
+This sets the common prop.one Kafka property to first (applies to producers, consumers and admins), the prop.two admin property to second, the prop.three consumer property to third and the prop.four producer property to fourth.
+
+You can also configure the Spring Kafka JsonDeserializer as follows:
+
+spring.kafka.consumer.value-deserializer=org.springframework.kafka.support.serializer.JsonDeserializer
+spring.kafka.consumer.properties.spring.json.value.default.type=com.example.Invoice
+spring.kafka.consumer.properties.spring.json.trusted.packages=com.example,org.acme
+Similarly, you can disable the JsonSerializer default behavior of sending type information in headers:
+
+spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer
+spring.kafka.producer.properties.spring.json.add.type.headers=false
