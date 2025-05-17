@@ -10,3 +10,4 @@ Similarly, you can disable the JsonSerializer default behavior of sending type i
 spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer
 spring.kafka.producer.properties.spring.json.add.type.headers=false
 https://docs.spring.io/spring-boot/docs/2.0.4.RELEASE/reference/htmlsingle/#boot-features-kafka-extra-props
+https://stackoverflow.com/questions/51688924/spring-kafka-the-class-is-not-in-the-trusted-packages
